@@ -18,7 +18,22 @@ public class triangle30 {
         System.out.println();
             i++;
         }
-        mine.close();
+       
+
+        // segitiga terbalik
+        i = n;
+         while (i >= 1) {
+            //System.out.print(" "); 
+            int j = 0;
+        while (j < i) {
+            System.out.print("*");
+            
+            j++;
+        }
+        System.out.println();
+            i--;
+             mine.close();
+        }
 
     }
 }
