@@ -6,8 +6,8 @@ public class star30 {
     System.out.print("Masukkan nilai n = ");
     int n = mine.nextInt();
 
-    for (int i = 1; i <= n; i++) {
-    System.out.print("*");
+    for (int i = 1; i <= n; i += 2) {
+    System.out.print(i + " ");
 }
     System.out.println();
     mine.close();
